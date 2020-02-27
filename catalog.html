@@ -14,14 +14,13 @@
    });
 </script>
     <script>window.onload = function () {
-    let phonePack = document.querySelectorAll(".catalog_element>a");
-    phonePack.forEach(function (phone) {
-        phone.oncopy = function () {
+    let phonePack = document.querySelector("h2.copy");
+    phonePack.oncopy = function () {
         yaCounter57866776.reachGoal('email_copy');
-        return true;
-        }
-    });
-};</script>
+        return true
+    }
+}
+</script>
 <noscript><div><img src="https://mc.yandex.ru/watch/57866776" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
     <meta charset="UTF-8">
@@ -39,7 +38,7 @@
             </ul>
         </div>
 
-        <h2>КАТАЛОГ:</h2>
+        <h2 class="copy">КАТАЛОГ:</h2>
         <div class="catalog_list">
             <div class="catalog_element">
                 <img src="products/imag/irobot_roomba_980.jpg"
